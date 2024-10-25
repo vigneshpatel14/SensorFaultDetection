@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import pickle
 import yaml
-import boto3
+#import boto3
 
 
 from src.constant import *
@@ -91,4 +91,3 @@ class MainUtils:
         except Exception as e:
             logging.info('Exception Occured in load_object function utils')
             raise CustomException(e,sys)
-   
