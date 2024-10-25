@@ -1,7 +1,7 @@
 import os
 
 
-AWS_S3_BUCKET_NAME = "waferfault"
+AWS_S3_BUCKET_NAME = "waferfaultdetection"
 MONGO_DATABASE_NAME = "pwskills"
 MONGO_COLLECTION_NAME = "waferfault"
 
