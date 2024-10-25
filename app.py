@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to my application"
+    return "Welcome to my application" #j
 
 
 @app.route("/train")
