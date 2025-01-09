@@ -23,7 +23,7 @@ def train_route():
         train_pipeline = TrainingPipeline()
         train_pipeline.run_pipeline()
 
-        return "Training Completed."
+        return render_template('trainingfile.html')
 
     except Exception as e:
         raise CustomException(e,sys)
